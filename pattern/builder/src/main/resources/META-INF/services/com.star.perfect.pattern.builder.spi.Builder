@@ -1,0 +1,1 @@
+com.star.perfect.pattern.builder.spi.GamesBuilder

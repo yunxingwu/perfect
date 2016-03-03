@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>perfect</artifactId>
+        <groupId>com.star</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>fsm</artifactId>
+    <packaging>pom</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <spring-version>4.2.1.RELEASE</spring-version>
+        <dubbo-vesrion>2.5.3</dubbo-vesrion>
+        <zkclient-version>0.3</zkclient-version>
+        <junit-version>4.12</junit-version>
+        <!--<fsm-version>0.0.1-SNAPSHOT</fsm-version>-->
+    </properties>
+    <modules>
+        <module>fsm-api</module>
+        <module>service</module>
+    </modules>
+
+
+</project>
