@@ -30,5 +30,6 @@ public class AAA {
         for (int i = 1;i<17;i++){
             method.invoke(o,i);
         }
+        System.out.println("add");
     }
 }
