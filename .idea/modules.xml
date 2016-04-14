@@ -8,11 +8,15 @@
       <module fileurl="file://$PROJECT_DIR$/fsm/fsm.iml" filepath="$PROJECT_DIR$/fsm/fsm.iml" />
       <module fileurl="file://$PROJECT_DIR$/fsm/fsm-api/fsm-api.iml" filepath="$PROJECT_DIR$/fsm/fsm-api/fsm-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/load/load.iml" filepath="$PROJECT_DIR$/load/load.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mail/mail.iml" filepath="$PROJECT_DIR$/mail/mail.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern/pattern.iml" filepath="$PROJECT_DIR$/pattern/pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/perfect.iml" filepath="$PROJECT_DIR$/perfect.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern/proxy/proxy.iml" filepath="$PROJECT_DIR$/pattern/proxy/proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/fsm/service/service.iml" filepath="$PROJECT_DIR$/fsm/service/service.iml" />
       <module fileurl="file://$PROJECT_DIR$/socket/socket.iml" filepath="$PROJECT_DIR$/socket/socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-study/spring-study.iml" filepath="$PROJECT_DIR$/spring-study/spring-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-study/spring_mvc/spring-study/spring_mvc.iml" filepath="$PROJECT_DIR$/spring-study/spring_mvc/spring-study/spring_mvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zk-client/zk-client.iml" filepath="$PROJECT_DIR$/zk-client/zk-client.iml" />
     </modules>
   </component>
 </project>

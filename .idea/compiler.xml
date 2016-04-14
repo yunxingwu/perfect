@@ -27,9 +27,12 @@
         <module name="common" />
         <module name="fsm-api" />
         <module name="load" />
+        <module name="mail" />
         <module name="proxy" />
         <module name="service" />
         <module name="socket" />
+        <module name="spring_mvc" />
+        <module name="zk-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -39,11 +42,15 @@
       <module name="fsm" target="1.5" />
       <module name="fsm-api" target="1.5" />
       <module name="load" target="1.5" />
+      <module name="mail" target="1.5" />
       <module name="pattern" target="1.5" />
       <module name="perfect" target="1.5" />
       <module name="proxy" target="1.5" />
       <module name="service" target="1.5" />
       <module name="socket" target="1.5" />
+      <module name="spring-study" target="1.5" />
+      <module name="spring_mvc" target="1.5" />
+      <module name="zk-client" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
