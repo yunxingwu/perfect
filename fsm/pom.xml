@@ -15,7 +15,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring-version>4.2.1.RELEASE</spring-version>
         <dubbo-vesrion>2.5.3</dubbo-vesrion>
-        <zkclient-version>0.3</zkclient-version>
+        <!--<zkclient-version>0.3</zkclient-version>-->
         <junit-version>4.12</junit-version>
         <!--<fsm-version>0.0.1-SNAPSHOT</fsm-version>-->
     </properties>
