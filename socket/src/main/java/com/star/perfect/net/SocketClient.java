@@ -9,14 +9,12 @@ import java.net.Socket;
 
 public class SocketClient {
     public void startClient() throws IOException {
-        Socket socket = new Socket("127.0.0.1",2016);
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        Socket socket = new Socket("127.0.0.1",20166);
+        BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
         PrintWriter printWriter = new PrintWriter(socket.getOutputStream());
-        String info = reader.readLine();
-        while (!info.equals("end")) {
+        String info = "aaa";
             printWriter.println(info);
             printWriter.flush();
-        }
         printWriter.close();
         socket.close();
 

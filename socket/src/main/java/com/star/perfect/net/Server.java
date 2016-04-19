@@ -15,7 +15,7 @@ import java.util.List;
 public class Server {
     private List<ServerRunable> clients = new ArrayList<ServerRunable>();
     private  ServerSocket serverSocket;
-    private static int serverPort = 2016;
+    private static int serverPort = 20166;
     public void init(){
         try {
             serverSocket = new ServerSocket(serverPort);
@@ -29,13 +29,12 @@ public class Server {
     }
 
     public void startServer() throws IOException {
-        System.out.println("service start...");
-        while (true) {
+        System.out.println("服务start...");
             Socket socket = serverSocket.accept();
+            System.out.println("accept client:"+socket);
             ServerRunable runable = new ServerRunable(socket);
-           clients.add(runable);
+           new  Thread(runable).start();
         }
-    }
 
     public static void main(String[] args) throws IOException {
         Server server = new Server();
