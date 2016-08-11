@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GBK"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-4.2.xsd"
+>
+    <context:component-scan base-package="com.star.perfect.spring"/>
+    <bean id="initbean" class="com.star.perfect.not.InitBean"/>
+    <!--<bean id="a" class="com.star.perfect.spring.A"/>-->
+    <!--<bean id="b1" class="com.star.perfect.spring.B"/>-->
+    <!--<bean id="b2"  class="com.star.perfect.spring.B"/>-->
+</beans>
